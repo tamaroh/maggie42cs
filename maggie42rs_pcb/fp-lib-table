@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BrownSugar_KBD")(type "KiCad")(uri "${REPO_DIR}/BrownSugar_KBD_KiCad_Library/BrownSugar_KBD/BrownSugar_KBD.pretty")(options "")(descr ""))
+  (lib (name "kbd")(type "KiCad")(uri "${REPO_DIR}/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${REPO_DIR}/pipico/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "mcu")(type "KiCad")(uri "${REPO_DIR}/kleeb/mcu.pretty")(options "")(descr ""))
+)

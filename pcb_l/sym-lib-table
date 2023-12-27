@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BrownSugar_KBD")(type "Legacy")(uri "${REPO_DIR}/BrownSugar_KBD_KiCad_Library/BrownSugar_KBD/BrownSugar_KBD.lib")(options "")(descr ""))
+  (lib (name "kbd")(type "Legacy")(uri "${REPO_DIR}/kbd/kicad-symbols/kbd.lib")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${REPO_DIR}/pipico/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "mcu")(type "KiCad")(uri "${REPO_DIR}/kleeb/mcu.kicad_sym")(options "")(descr ""))
+)
