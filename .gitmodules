@@ -1,0 +1,3 @@
+[submodule "v2/kbd"]
+	path = v2/kbd
+	url = git@github.com:foostan/kbd.git
