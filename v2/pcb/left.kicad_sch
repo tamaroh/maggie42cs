@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "a987a221-6cef-4fd5-8d48-503d85603db1")
 	(paper "A4")
+	(title_block
+		(title "maggie42cs")
+		(rev "2.0.1")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
@@ -887,188 +891,6 @@
 						)
 					)
 					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Audio:AudioJack3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack3"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack3_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end -6.35 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AudioJack3_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3750,6 +3572,212 @@
 				)
 			)
 		)
+		(symbol "kbd:MJ-4PP-9"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MJ-4PP-9"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 6.985 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 6.985 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector), compatible with PJ320A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptable stereo headphones TRRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MJ-4PP-9_0_1"
+				(rectangle
+					(start -1.905 -1.905)
+					(end -3.175 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.905) (xy -0.635 -1.27) (xy 0 -1.905) (xy 3.175 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy 0.635 0) (xy 1.27 -0.635) (xy 3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.635) (xy 1.905 1.27) (xy 2.54 0.635) (xy 3.175 0.635)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.175 2.54)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MJ-4PP-9_1_1"
+				(pin input line
+					(at 5.08 1.905 180)
+					(length 2.0066)
+					(name "~"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0.7112 0.7112)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -1.905 180)
+					(length 2.0066)
+					(name "~"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 0.7112 0.7112)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -0.635 180)
+					(length 2.0066)
+					(name "~"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0.7112 0.7112)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0.635 180)
+					(length 2.0066)
+					(name "~"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 0.7112 0.7112)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+1V1"
 			(power)
 			(pin_numbers hide)
@@ -4302,6 +4330,126 @@
 				)
 			)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 191.77 99.06)
@@ -4350,6 +4498,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "226259f3-00e6-4564-b5ef-6ae6b2da080c")
+	)
+	(junction
+		(at 44.45 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b1da255-66b8-4b71-be58-26f007b7596f")
 	)
 	(junction
 		(at 170.18 118.11)
@@ -4734,6 +4888,10 @@
 	(no_connect
 		(at 101.6 138.43)
 		(uuid "7488fb7b-0ead-4f43-94e6-1ba8e45b0ef1")
+	)
+	(no_connect
+		(at 196.85 33.02)
+		(uuid "78df68d5-18de-4de9-b518-041833937aae")
 	)
 	(no_connect
 		(at 101.6 151.13)
@@ -5533,6 +5691,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 31.75) (xy 200.66 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73eddbd-b701-47af-8240-00b014c29ed6")
+	)
+	(wire
+		(pts
 			(xy 201.93 142.24) (xy 223.52 142.24)
 		)
 		(stroke
@@ -5660,6 +5828,26 @@
 			(type default)
 		)
 		(uuid "d5ec2839-bf18-4578-adef-70f7e0e23da6")
+	)
+	(wire
+		(pts
+			(xy 203.2 35.56) (xy 196.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d69982cc-51bc-48fb-a671-d32fc67031b5")
+	)
+	(wire
+		(pts
+			(xy 196.85 35.56) (xy 196.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d869f504-4288-4e3d-a11c-a445e70ab45c")
 	)
 	(wire
 		(pts
@@ -6463,7 +6651,7 @@
 	)
 	(global_label "CONN"
 		(shape input)
-		(at 198.12 33.02 0)
+		(at 203.2 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6473,7 +6661,7 @@
 		)
 		(uuid "c7858b0e-f6ed-4181-b94d-b49ad80d148d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.3667 33.02 0)
+			(at 211.4467 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,6 +6903,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 106.68 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04d83d2c-ff92-414c-9c39-6e8e30276c77")
+		(property "Reference" "#PWR055"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 106.68 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 106.68 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c83f36e-b4a2-430f-b8da-d5c1162def2e")
+		)
+		(instances
+			(project "pcb"
+				(path "/1b11ed37-03c8-4f60-a25e-bf09daf384e1/68fe2de5-5edf-4814-ba17-b21dcf4cb675"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 119.38 68.58 0)
 		(unit 1)
@@ -6760,6 +7014,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 119.38 68.58 0)
 			(effects
 				(font
@@ -6849,6 +7112,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 266.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 266.7 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,7 +7515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2F"
+		(property "Value" "2.2uF"
 			(at 92.456 76.2 0)
 			(effects
 				(font
@@ -7349,6 +7621,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 110.49 68.58 0)
 			(effects
 				(font
@@ -7511,6 +7792,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 180.34 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdace8c7-aa97-4a2d-bfeb-b6d37014c169")
 		)
@@ -7521,71 +7811,6 @@
 			(project "pcb"
 				(path "/1b11ed37-03c8-4f60-a25e-bf09daf384e1/68fe2de5-5edf-4814-ba17-b21dcf4cb675"
 					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 198.12 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19eac9e8-1cb7-42b9-b421-656bd80d80d0")
-		(property "Reference" "#PWR011"
-			(at 194.31 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 201.422 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 198.12 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27511cf8-579f-4f5d-bd9b-661d9b049f50")
-		)
-		(instances
-			(project "pcb"
-				(path "/1b11ed37-03c8-4f60-a25e-bf09daf384e1/68fe2de5-5edf-4814-ba17-b21dcf4cb675"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8028,6 +8253,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 201.93 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce783d0f-8c78-4ecf-a59a-2c7b073ebeea")
 		)
@@ -8177,6 +8411,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 245.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 245.11 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,6 +8912,72 @@
 			(project ""
 				(path "/1b11ed37-03c8-4f60-a25e-bf09daf384e1/68fe2de5-5edf-4814-ba17-b21dcf4cb675"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 106.68 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35b6330b-9535-44ce-af14-9b2db0a89ee6")
+		(property "Reference" "#FLG022"
+			(at 106.68 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 106.68 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a77e2203-8353-4f47-ba7e-abc8092bbc5d")
+		)
+		(instances
+			(project "pcb"
+				(path "/1b11ed37-03c8-4f60-a25e-bf09daf384e1/68fe2de5-5edf-4814-ba17-b21dcf4cb675"
+					(reference "#FLG022")
 					(unit 1)
 				)
 			)
@@ -9248,6 +9557,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 266.7 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a2db5fd-1957-4ccb-9f80-3770ef2a8c9b")
 		)
@@ -9329,6 +9647,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 158.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 158.75 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9424,6 +9751,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 223.52 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d29e73df-8e3f-4040-becd-c008d39ee6d4")
 		)
@@ -9434,6 +9770,71 @@
 			(project "pcb"
 				(path "/1b11ed37-03c8-4f60-a25e-bf09daf384e1/68fe2de5-5edf-4814-ba17-b21dcf4cb675"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 200.66 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "523646af-8a9a-4b54-b4a1-55b8c8e4f29a")
+		(property "Reference" "#PWR053"
+			(at 196.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 203.962 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eeaf172-65ed-4792-b9d2-67d5aa0678a6")
+		)
+		(instances
+			(project "pcb"
+				(path "/1b11ed37-03c8-4f60-a25e-bf09daf384e1/68fe2de5-5edf-4814-ba17-b21dcf4cb675"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9649,6 +10050,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 180.34 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9891,6 +10301,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 201.93 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9bf4566-5571-429b-919f-8a422d7654b4")
 		)
@@ -10116,6 +10535,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84d856d8-96fe-4d6e-97d9-4a64c5e7a4f8")
 		)
@@ -10275,8 +10703,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 193.04 33.02 0)
+		(lib_id "kbd:MJ-4PP-9")
+		(at 191.77 32.385 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10285,7 +10713,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e37e5c6-5e57-472e-8d70-516d40f3c183")
 		(property "Reference" "J1"
-			(at 191.135 24.13 0)
+			(at 191.4525 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10293,15 +10721,15 @@
 			)
 		)
 		(property "Value" "AudioJack3"
-			(at 191.135 26.67 0)
+			(at 191.4525 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "kbd:PJ-398A-5A_PJ-399B-6A"
-			(at 193.04 33.02 0)
+		(property "Footprint" "kbd:MJ-4PP-9_1side"
+			(at 198.755 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10310,7 +10738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 33.02 0)
+			(at 198.755 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10318,8 +10746,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 193.04 33.02 0)
+		(property "Description" "4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector), compatible with PJ320A"
+			(at 191.77 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10327,8 +10755,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C128994"
-			(at 193.04 33.02 0)
+		(property "LCSC" "C22459514"
+			(at 191.77 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,14 +10764,17 @@
 				(hide yes)
 			)
 		)
-		(pin "T"
+		(pin "A"
 			(uuid "b3848b1e-21be-4842-b818-f7517172fb2d")
 		)
-		(pin "R"
+		(pin "C"
 			(uuid "210670a6-beba-4b6b-a27d-99d639fd4fec")
 		)
-		(pin "S"
+		(pin "D"
 			(uuid "0ce398f8-a701-4e2d-9d57-7ad2f2c12fa7")
+		)
+		(pin "B"
+			(uuid "2982284b-2d27-422d-9227-6b5193dad136")
 		)
 		(instances
 			(project ""
@@ -10422,7 +10853,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 30.48 90)
+		(at 196.85 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10431,7 +10862,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f952299-27c3-4909-8804-47ea9804a2e4")
 		(property "Reference" "#PWR07"
-			(at 204.47 30.48 0)
+			(at 203.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10440,7 +10871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 30.4799 90)
+			(at 200.66 30.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 30.48 0)
+			(at 196.85 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,7 +10889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 30.48 0)
+			(at 196.85 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10467,7 +10898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 30.48 0)
+			(at 196.85 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,6 +10964,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 146.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 146.05 68.58 0)
 			(effects
 				(font
@@ -10810,6 +11250,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a3c74be-140e-4f79-bbd5-89187ac01545")
 		)
@@ -10963,6 +11412,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 201.93 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1254dca-48d2-496b-902d-63cf95079c1c")
 		)
@@ -11044,6 +11502,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 223.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 223.52 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11288,6 +11755,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 266.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 266.7 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11550,7 +12026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:TYPE-C-31-M-13C"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 33.02 40.64 0)
 			(effects
 				(font
@@ -11577,7 +12053,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2848620"
+		(property "LCSC" "C165948"
 			(at 29.21 40.64 0)
 			(effects
 				(font
@@ -11790,6 +12266,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 180.34 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12099,7 +12584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2F"
+		(property "Value" "2.2uF"
 			(at 59.944 76.2 0)
 			(effects
 				(font
@@ -12225,6 +12710,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 266.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 266.7 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12616,6 +13110,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 223.52 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8842724-8a97-4b2b-81ec-bf8a94af75ff")
 		)
@@ -12772,6 +13275,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 223.52 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34ef8e28-a478-4b77-8511-d3a923cfbadb")
 		)
@@ -12853,6 +13365,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 245.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 245.11 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12987,6 +13508,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 137.16 68.58 0)
 			(effects
 				(font
@@ -13444,6 +13974,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 245.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 245.11 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14282,6 +14821,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 158.75 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47e04d4c-4832-42ff-9794-5c42508541d0")
 		)
@@ -14430,6 +14978,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 44.45 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f625572b-453c-4ef1-a0e5-bbcdb78e6918")
+		(property "Reference" "#PWR054"
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 44.45 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "917c171a-f2c4-4663-a2e4-eeedb7003931")
+		)
+		(instances
+			(project ""
+				(path "/1b11ed37-03c8-4f60-a25e-bf09daf384e1/68fe2de5-5edf-4814-ba17-b21dcf4cb675"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 245.11 139.7 90)
 		(unit 1)
@@ -14495,6 +15109,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 245.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 245.11 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
