@@ -1,7 +1,7 @@
 {
   "name": "maggie42cs",
   "vendorId": "0x1234",
-  "productId": "0x0005",
+  "productId": "0x0007",
   "lighting": "none",
   "matrix": {
     "rows": 8,
