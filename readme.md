@@ -72,6 +72,7 @@ maggie42csはカラムスタッガード 40％分割キーボードです。
 ## ファームウェア等
 
 以下からダウンロードしてください。
+https://github.com/tamaroh/maggie42cs/releases
 
 |ファイル名|用途|
 |-|-|
