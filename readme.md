@@ -1,3 +1,62 @@
+# maggie42cs
+maggie42csはカラムスタッガード 40％分割キーボードです。
+
+## 同梱物
+
+| 部品名称 | 数量 | 備考 |
+| -------- | ---- | ---- |
+| PCB    | 2   |  |
+| トッププレート    | 2    | 左右同一です |
+| ボトムプレート    | 2   | 左右同一です |
+| ネジ    | 14   | M2 3mm |
+| 丸スペーサー    | 7   | 7mm |
+|  | 7   | 7mm |
+
+## 必要な部品
+
+数量は両手分です。
+| 部品名称 | 数量 | 備考 | 主な購入先 |
+| -------- | ---- | ---- | ---------- |
+| ダイオード    | 42   | SMD（表面実装）タイプ | [TALP KEYBOARD](https://talpkeyboard.net/items/6294480b0ebded1af895c437) など    |
+| スイッチソケット | 42   | Cherry MX / Kailh choc どちらか対応 | [TALP KEYBOARD](https://talpkeyboard.net/items/5e02c5405b120c792616bcf9) など    |
+| メカニカルスイッチ    | 42    | Cherry MX /Kailh choc V1 / V2 対応 | [遊舎工房](https://shop.yushakobo.jp/collections/all-switches) など    |
+| キーキャップ    | 1U x 33, 1.25U x 7, 1.5U x 2 | スイッチに対応したもの | [遊舎工房](https://shop.yushakobo.jp/collections/keycaps) など    |
+| Waveshare RP2040 zero | 2 | ピンヘッダーなどは不要です | [TALP KEYBOARD](https://talpkeyboard.net/items/640ea9f3072c3c538731c515) など |
+| TRRSコネクター | 2 | MJ-4PP-9、または同様の形状のもの | [TALP KEYBOARD](https://talpkeyboard.net/items/5fa25a06da019c17f0664dc7) など |
+| ケーブル | 1 | 3.5mmオーディオジャック 4極または3極 | [TALP KEYBOARD](https://talpkeyboard.net/items/5e0c0d786c7d63073c5e8845) など |
+| USBケーブル | 1 | 機器側がTypeCのもの | 家電量販店など |
+
+## 使用する工具など
+
+お持ちでない場合は適宜代替え品をご用意ください。
+
+| 工具 | 備考 |
+| ---- | ---- |
+| 精密ドライバー | PH0など |
+| はんだごて | 温度調整可能なものがおすすめです |
+| はんだ |  |
+| はんだ吸い取り線・吸い取り器 | 失敗の時のため |
+| ピンセット | 金属製を推奨 |
+| イソプロピルアルコール（IPA） | はんだ付け後の基板洗浄のため |
+|PC または Mac|ダウンロードのためインターネット接続が必要です|
+
+## 製作手順
+
+1. ダイオードをはんだ付けします。  
+ダイオードには向きがあります。パーツに｜の印字がある側をPCB上の｜と同じ側につけてください。
+1. ソケットをはんだ付けします。
+  ソケットは逆向きにならないよう、スイッチ用の穴や印刷を確認してください。
+1. RP2040を半田付けします。  
+使用するソケットによって半田付けする側が異なります。  
+裏表を間違わないように気をつけてください。  
+1. BOOTSELスイッチを押したまま、USBケーブルを接続します。
+1. マウントされたドライブにファームウェアのファイルを保存します（自動的にマウントが解除されます）
+1. [QMK configurator](https://config.qmk.fm/#/test)をブラウザで開き、ソケットの端子部分をピンセットなどで短絡させてキー入力を確認します。  
+列や行が入力されない場合はRP2040のはんだづけを確認してください。
+個別のキーが入力されない場合はダイオードのはんだづけを確認してください。
+1. キープレートの外側数個にスイッチを取り付けます。
+1. PCBと重ね合わせてソケットに差し込みます。
+1. 
 ## kicad setup
 Clone these repositories and add symbol/footprint.
 git@github.com:foostan/kbd.git
