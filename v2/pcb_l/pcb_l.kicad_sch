@@ -6807,7 +6807,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 46.99 43.18 0)
+		(at 46.99 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6817,7 +6817,7 @@
 		)
 		(uuid "766e8e8b-3b3a-45c6-badf-b54e2416dc04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.8176 43.18 0)
+			(at 52.8176 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +7071,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 46.99 38.1 0)
+		(at 46.99 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7081,7 +7081,7 @@
 		)
 		(uuid "de5f1f2b-0dac-434f-b8c0-d09932302b14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.8176 38.1 0)
+			(at 52.8176 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9958,7 +9958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical"
 			(at 24.13 172.72 0)
 			(effects
 				(font
