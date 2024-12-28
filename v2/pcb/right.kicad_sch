@@ -3071,7 +3071,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -8.89 8.89 0)
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3079,7 +3079,7 @@
 				)
 			)
 			(property "Value" "W25Q128JVS"
-				(at 7.62 8.89 0)
+				(at 7.62 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3087,7 +3087,7 @@
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-				(at 0 0 0)
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3095,8 +3095,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3105,7 +3105,7 @@
 				)
 			)
 			(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-				(at 0 0 0)
+				(at 0 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4846,10 +4846,6 @@
 		(uuid "0ed8d2ed-a051-4623-b26d-a5e2bdf9b858")
 	)
 	(no_connect
-		(at 200.66 34.29)
-		(uuid "14db501f-bdca-41f4-8874-852837ab48f3")
-	)
-	(no_connect
 		(at 105.41 144.78)
 		(uuid "1a3a7072-ed3a-4921-89d3-10b743375897")
 	)
@@ -4900,6 +4896,10 @@
 	(no_connect
 		(at 105.41 147.32)
 		(uuid "b7abe7e5-5625-44f3-8872-22711afbc89a")
+	)
+	(no_connect
+		(at 200.66 35.56)
+		(uuid "c012aa7f-e956-4750-a428-c77beb9ee568")
 	)
 	(no_connect
 		(at 105.41 165.1)
@@ -5381,6 +5381,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 31.75) (xy 200.66 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dbb9249-296b-4f6f-ba96-9936ebfc6c96")
+	)
+	(wire
+		(pts
 			(xy 132.08 72.39) (xy 140.97 72.39)
 		)
 		(stroke
@@ -5388,6 +5398,16 @@
 			(type default)
 		)
 		(uuid "70ad0cdf-ea7c-4f73-8f7d-f29b3d3a680d")
+	)
+	(wire
+		(pts
+			(xy 203.2 27.94) (xy 203.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b64a27-114c-493a-9900-888644210ddc")
 	)
 	(wire
 		(pts
@@ -5481,16 +5501,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 35.56) (xy 200.66 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e953ada-87d7-47e9-9054-eb994c0ef8ef")
-	)
-	(wire
-		(pts
 			(xy 227.33 124.46) (xy 248.92 124.46)
 		)
 		(stroke
@@ -5531,16 +5541,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 38.1) (xy 204.47 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9166e439-b5e6-4b77-b822-7e0a7893aab6")
-	)
-	(wire
-		(pts
 			(xy 96.52 67.31) (xy 105.41 67.31)
 		)
 		(stroke
@@ -5548,6 +5548,16 @@
 			(type default)
 		)
 		(uuid "98405d09-119f-4a0b-a32a-dc20afddc961")
+	)
+	(wire
+		(pts
+			(xy 203.2 33.02) (xy 200.66 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd2e68a-1080-447b-84b0-0337f3d889a6")
 	)
 	(wire
 		(pts
@@ -5641,13 +5651,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 33.02) (xy 204.47 33.02)
+			(xy 200.66 34.29) (xy 207.01 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b37fab4e-6b93-4d64-99d2-c5a107346882")
+		(uuid "afc79305-a216-43f3-8abf-bc2f37eee362")
 	)
 	(wire
 		(pts
@@ -5818,6 +5828,16 @@
 			(type default)
 		)
 		(uuid "dae17a2e-7e62-4358-8ffb-61ef356a5049")
+	)
+	(wire
+		(pts
+			(xy 201.93 41.91) (xy 201.93 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbce901-2d85-4065-8039-dce0d732a27d")
 	)
 	(wire
 		(pts
@@ -6122,7 +6142,7 @@
 	)
 	(global_label "rCONN"
 		(shape input)
-		(at 204.47 38.1 0)
+		(at 207.01 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6132,7 +6152,7 @@
 		)
 		(uuid "3883986e-e685-43cc-a2b0-411a45654f35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.5029 38.1 0)
+			(at 216.0429 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6230,7 @@
 	)
 	(global_label "rD+"
 		(shape input)
-		(at 48.26 41.91 0)
+		(at 48.26 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6220,7 +6240,7 @@
 		)
 		(uuid "6e53f0b4-5771-4bcb-bd14-65e904cbff29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.8738 41.91 0)
+			(at 54.8738 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6738,7 +6758,7 @@
 	)
 	(global_label "rD-"
 		(shape input)
-		(at 48.26 46.99 0)
+		(at 48.26 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6748,7 +6768,7 @@
 		)
 		(uuid "ea83a3e1-f3c1-4047-a6ee-2aa6d04ec1d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.8738 46.99 0)
+			(at 54.8738 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,7 +6948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap_1.25u"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1.25u"
 			(at 157.48 152.4 0)
 			(effects
 				(font
@@ -7219,7 +7239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 243.84 95.25 0)
 			(effects
 				(font
@@ -7516,7 +7536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 157.48 133.35 0)
 			(effects
 				(font
@@ -7971,7 +7991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 200.66 133.35 0)
 			(effects
 				(font
@@ -8521,7 +8541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 243.84 133.35 0)
 			(effects
 				(font
@@ -8734,7 +8754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 157.48 114.3 0)
 			(effects
 				(font
@@ -8804,7 +8824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 49.53 142.24 0)
 			(effects
 				(font
@@ -8884,7 +8904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 243.84 114.3 0)
 			(effects
 				(font
@@ -9357,7 +9377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 222.25 114.3 0)
 			(effects
 				(font
@@ -9503,7 +9523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 179.07 133.35 0)
 			(effects
 				(font
@@ -9725,7 +9745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:TS-1088R-02026"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 125.73 33.02 0)
 			(effects
 				(font
@@ -10086,7 +10106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 179.07 152.4 0)
 			(effects
 				(font
@@ -10601,7 +10621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 200.66 95.25 0)
 			(effects
 				(font
@@ -11586,7 +11606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 179.07 114.3 0)
 			(effects
 				(font
@@ -11654,7 +11674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 179.07 95.25 0)
 			(effects
 				(font
@@ -11819,7 +11839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap_1.25u"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1.25u"
 			(at 265.43 133.35 0)
 			(effects
 				(font
@@ -11863,7 +11883,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 31.75 90)
+		(at 201.93 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11872,7 +11892,7 @@
 		(fields_autoplaced yes)
 		(uuid "9348bac0-0e6c-4aee-aea1-e7e907958490")
 		(property "Reference" "#PWR034"
-			(at 207.01 31.75 0)
+			(at 201.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11881,16 +11901,16 @@
 			)
 		)
 		(property "Value" "rGND"
-			(at 204.47 31.7499 90)
+			(at 204.47 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 31.75 0)
+			(at 201.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11899,7 +11919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 31.75 0)
+			(at 201.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11908,7 +11928,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 31.75 0)
+			(at 201.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12248,7 +12268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap_1.25u"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1.25u"
 			(at 200.66 152.4 0)
 			(effects
 				(font
@@ -12382,7 +12402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 222.25 133.35 0)
 			(effects
 				(font
@@ -13068,7 +13088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 200.66 114.3 0)
 			(effects
 				(font
@@ -13136,7 +13156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:TS-1088R-02026"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 49.53 86.36 0)
 			(effects
 				(font
@@ -13577,7 +13597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 265.43 114.3 0)
 			(effects
 				(font
@@ -14236,7 +14256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap_1.5u"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1.5u"
 			(at 265.43 95.25 0)
 			(effects
 				(font
@@ -14545,7 +14565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 157.48 95.25 0)
 			(effects
 				(font
@@ -14994,7 +15014,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVSIQ"
+		(property "Value" "W25Q128JVS"
 			(at 161.29 46.9899 0)
 			(effects
 				(font
@@ -15003,8 +15023,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm"
-			(at 152.4 45.72 0)
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+			(at 152.4 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15012,8 +15032,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 152.4 45.72 0)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 152.4 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15022,16 +15042,7 @@
 			)
 		)
 		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C97521"
-			(at 152.4 45.72 0)
+			(at 152.4 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15176,7 +15187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 222.25 95.25 0)
 			(effects
 				(font
@@ -15220,7 +15231,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 204.47 33.02 270)
+		(at 203.2 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15228,7 +15239,7 @@
 		(dnp no)
 		(uuid "ff633eb0-a66d-4c4a-a1ce-81555b1120f2")
 		(property "Reference" "#PWR038"
-			(at 200.66 33.02 0)
+			(at 203.2 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15237,7 +15248,7 @@
 			)
 		)
 		(property "Value" "r+5V"
-			(at 207.772 33.782 0)
+			(at 203.962 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15245,7 +15256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 33.02 0)
+			(at 203.2 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15254,7 +15265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 33.02 0)
+			(at 203.2 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15263,7 +15274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 204.47 33.02 0)
+			(at 203.2 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)

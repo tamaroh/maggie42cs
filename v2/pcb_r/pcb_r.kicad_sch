@@ -4496,12 +4496,6 @@
 		(uuid "0e667bd6-58f1-41c8-85b6-125f982d1914")
 	)
 	(junction
-		(at 261.62 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "157c5cb4-71e8-4e2c-80b7-e6ef119569bf")
-	)
-	(junction
 		(at 175.26 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4712,16 +4706,16 @@
 		(uuid "872a2424-e230-493f-8ef2-3b7bd444a60f")
 	)
 	(junction
-		(at 240.03 140.97)
+		(at 196.85 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e366659-d838-4b84-90c8-ac90f6394106")
+		(uuid "9ee6073a-8ce0-41dd-8656-e1e5f54bc979")
 	)
 	(junction
-		(at 218.44 140.97)
+		(at 175.26 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0f349c4-8bbd-4abe-94cc-d0be7699271d")
+		(uuid "9fed862a-433f-4b20-a18b-7c3907058de1")
 	)
 	(junction
 		(at 215.9 21.59)
@@ -4766,6 +4760,12 @@
 		(uuid "ad5e8582-d4ab-42fc-8a2a-823d8056518a")
 	)
 	(junction
+		(at 153.67 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "add44672-127a-4f88-8f9c-b16a4722f279")
+	)
+	(junction
 		(at 196.85 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4808,7 +4808,7 @@
 		(uuid "c2e86460-b0b3-49e3-9b1d-d5201ac09cff")
 	)
 	(junction
-		(at 250.19 165.1)
+		(at 185.42 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc8913ba-26dd-471f-acb0-f169d69f8920")
@@ -4862,7 +4862,7 @@
 		(uuid "e7cf031c-325b-4c62-a71f-eb3332b095ab")
 	)
 	(junction
-		(at 228.6 165.1)
+		(at 163.83 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8107675-c9dc-4d60-8587-27048c8baff5")
@@ -5039,6 +5039,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 140.97) (xy 153.67 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f97e8b-3ec4-4222-a1b6-4be9d05f21ad")
+	)
+	(wire
+		(pts
 			(xy 34.29 162.56) (xy 35.56 162.56)
 		)
 		(stroke
@@ -5119,7 +5129,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 165.1) (xy 271.78 165.1)
+			(xy 185.42 165.1) (xy 207.01 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5449,16 +5459,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 165.1) (xy 250.19 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6421ffd7-0dad-468c-9bd6-7f06d394fdcb")
-	)
-	(wire
-		(pts
 			(xy 80.01 77.47) (xy 80.01 80.01)
 		)
 		(stroke
@@ -5526,6 +5526,16 @@
 			(type default)
 		)
 		(uuid "69097fbe-241f-49cc-8769-55a4c171fdd3")
+	)
+	(wire
+		(pts
+			(xy 196.85 140.97) (xy 196.85 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3077b5-1ccd-4fbe-b221-a0cb4a371a7c")
 	)
 	(wire
 		(pts
@@ -5719,16 +5729,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 140.97) (xy 261.62 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b6d3d3a-e4b6-4205-89bc-6026100df11e")
-	)
-	(wire
-		(pts
 			(xy 110.49 31.75) (xy 110.49 36.83)
 		)
 		(stroke
@@ -5756,6 +5756,16 @@
 			(type default)
 		)
 		(uuid "9fb7741e-7adc-4c71-900f-64dd3ee3f2f4")
+	)
+	(wire
+		(pts
+			(xy 175.26 140.97) (xy 175.26 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4de800a-3967-4e3a-a029-a44ac42a1cd3")
 	)
 	(wire
 		(pts
@@ -5806,16 +5816,6 @@
 			(type default)
 		)
 		(uuid "af361996-a7df-448d-9255-e9945ab66265")
-	)
-	(wire
-		(pts
-			(xy 218.44 140.97) (xy 218.44 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0645872-cf4f-407f-a7c0-4424202c26e3")
 	)
 	(wire
 		(pts
@@ -6269,6 +6269,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 165.1) (xy 185.42 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1141636-0f0b-4383-9064-31d33fc925ce")
+	)
+	(wire
+		(pts
 			(xy 185.42 107.95) (xy 207.01 107.95)
 		)
 		(stroke
@@ -6286,16 +6296,6 @@
 			(type default)
 		)
 		(uuid "f47b7573-74a1-43a8-a5cf-23782bd552ff")
-	)
-	(wire
-		(pts
-			(xy 240.03 140.97) (xy 240.03 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4cdec0d-a235-49e2-8311-412d98ae1c28")
 	)
 	(wire
 		(pts
@@ -6319,7 +6319,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 165.1) (xy 228.6 165.1)
+			(xy 149.86 165.1) (xy 163.83 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7599,7 +7599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1.5u"
 			(at 266.7 97.79 0)
 			(effects
 				(font
@@ -7866,7 +7866,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 245.11 160.02 0)
+		(at 180.34 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7875,7 +7875,7 @@
 		(fields_autoplaced yes)
 		(uuid "19d5c9f4-b2af-41db-a373-63dc3c73334f")
 		(property "Reference" "SW20"
-			(at 245.11 152.4 0)
+			(at 180.34 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,15 +7883,15 @@
 			)
 		)
 		(property "Value" "SW_PUSH"
-			(at 245.11 154.94 0)
+			(at 180.34 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
-			(at 245.11 154.94 0)
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
+			(at 180.34 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7900,7 +7900,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 154.94 0)
+			(at 180.34 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7909,7 +7909,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 245.11 160.02 0)
+			(at 180.34 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7958,7 +7958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 201.93 135.89 0)
 			(effects
 				(font
@@ -8286,7 +8286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap_1.25u"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 158.75 135.89 0)
 			(effects
 				(font
@@ -8517,7 +8517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 201.93 116.84 0)
 			(effects
 				(font
@@ -8736,7 +8736,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 223.52 160.02 0)
+		(at 158.75 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8745,7 +8745,7 @@
 		(fields_autoplaced yes)
 		(uuid "3461d459-8f58-4927-96b3-dff9da72a064")
 		(property "Reference" "SW19"
-			(at 223.52 152.4 0)
+			(at 158.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8753,15 +8753,15 @@
 			)
 		)
 		(property "Value" "SW_PUSH"
-			(at 223.52 154.94 0)
+			(at 158.75 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap_1.25u"
-			(at 223.52 154.94 0)
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1.25u"
+			(at 158.75 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,7 +8770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 154.94 0)
+			(at 158.75 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,7 +8779,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 223.52 160.02 0)
+			(at 158.75 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,7 +9179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 245.11 135.89 0)
 			(effects
 				(font
@@ -9247,7 +9247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 223.52 116.84 0)
 			(effects
 				(font
@@ -9581,7 +9581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 201.93 97.79 0)
 			(effects
 				(font
@@ -9715,7 +9715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 266.7 116.84 0)
 			(effects
 				(font
@@ -11407,7 +11407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 223.52 135.89 0)
 			(effects
 				(font
@@ -11648,7 +11648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 180.34 116.84 0)
 			(effects
 				(font
@@ -11716,7 +11716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1.25u"
 			(at 266.7 135.89 0)
 			(effects
 				(font
@@ -11935,7 +11935,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 228.6 162.56 90)
+		(at 163.83 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11944,7 +11944,7 @@
 		(fields_autoplaced yes)
 		(uuid "83dfab8d-af75-4c28-8e90-183f6b64cc55")
 		(property "Reference" "D19"
-			(at 231.14 161.2899 90)
+			(at 166.37 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11953,7 +11953,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 231.14 163.8299 90)
+			(at 166.37 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11962,7 +11962,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 228.6 162.56 90)
+			(at 163.83 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11971,7 +11971,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 162.56 90)
+			(at 163.83 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11980,7 +11980,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 228.6 162.56 0)
+			(at 163.83 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11989,7 +11989,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 228.6 162.56 0)
+			(at 163.83 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11998,7 +11998,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 228.6 162.56 0)
+			(at 163.83 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12007,7 +12007,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 228.6 162.56 90)
+			(at 163.83 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12129,7 +12129,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 271.78 162.56 90)
+		(at 207.01 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12138,7 +12138,7 @@
 		(fields_autoplaced yes)
 		(uuid "84a14fd0-6da3-4ae2-a630-02413ec43526")
 		(property "Reference" "D21"
-			(at 274.32 161.2899 90)
+			(at 209.55 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12147,7 +12147,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 274.32 163.8299 90)
+			(at 209.55 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12156,7 +12156,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 271.78 162.56 90)
+			(at 207.01 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12165,7 +12165,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 162.56 90)
+			(at 207.01 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12174,7 +12174,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 271.78 162.56 0)
+			(at 207.01 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12183,7 +12183,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 271.78 162.56 0)
+			(at 207.01 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12192,7 +12192,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 271.78 162.56 0)
+			(at 207.01 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12201,7 +12201,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 271.78 162.56 90)
+			(at 207.01 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12526,7 +12526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 245.11 116.84 0)
 			(effects
 				(font
@@ -12670,7 +12670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 245.11 97.79 0)
 			(effects
 				(font
@@ -12714,7 +12714,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 250.19 162.56 90)
+		(at 185.42 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12723,7 +12723,7 @@
 		(fields_autoplaced yes)
 		(uuid "980f1778-52bf-4edb-9f19-221c1d2aaa4f")
 		(property "Reference" "D20"
-			(at 252.73 161.2899 90)
+			(at 187.96 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12732,7 +12732,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 252.73 163.8299 90)
+			(at 187.96 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12741,7 +12741,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 250.19 162.56 90)
+			(at 185.42 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12750,7 +12750,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 162.56 90)
+			(at 185.42 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12759,7 +12759,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 250.19 162.56 0)
+			(at 185.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12768,7 +12768,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 250.19 162.56 0)
+			(at 185.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12777,7 +12777,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 250.19 162.56 0)
+			(at 185.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12786,7 +12786,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 250.19 162.56 90)
+			(at 185.42 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12835,7 +12835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 180.34 135.89 0)
 			(effects
 				(font
@@ -12903,7 +12903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap_1.5u"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 158.75 97.79 0)
 			(effects
 				(font
@@ -13424,7 +13424,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 266.7 160.02 0)
+		(at 201.93 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13433,7 +13433,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7064d10-073d-41f9-a9c1-f05739d11edb")
 		(property "Reference" "SW21"
-			(at 266.7 152.4 0)
+			(at 201.93 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13441,15 +13441,15 @@
 			)
 		)
 		(property "Value" "SW_PUSH"
-			(at 266.7 154.94 0)
+			(at 201.93 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap_1.25u"
-			(at 266.7 154.94 0)
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1.25u"
+			(at 201.93 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13458,7 +13458,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 154.94 0)
+			(at 201.93 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13467,7 +13467,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 266.7 160.02 0)
+			(at 201.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15205,7 +15205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 180.34 97.79 0)
 			(effects
 				(font
@@ -15351,7 +15351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -15915,7 +15915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_ChocV2_Hotswap_1.25u"
+		(property "Footprint" "kbd:keyswitch_cherrymx_choc12_hotswap_1u"
 			(at 158.75 116.84 0)
 			(effects
 				(font
