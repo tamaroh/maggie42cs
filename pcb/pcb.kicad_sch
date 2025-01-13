@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "maggie42cs")
-		(rev "2.0.1")
+		(rev "2.0.2")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
@@ -5822,7 +5822,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 148.59) (xy 171.45 148.59)
+			(xy 162.56 146.05) (xy 171.45 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5849,6 +5849,16 @@
 			(type default)
 		)
 		(uuid "8fc53ba3-d6c5-405a-9184-8ced79f17e86")
+	)
+	(wire
+		(pts
+			(xy 24.13 157.48) (xy 33.02 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900d7d5b-212b-44d9-ab9f-1691acc6fcc4")
 	)
 	(wire
 		(pts
@@ -6012,16 +6022,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 146.05) (xy 171.45 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab25ef37-dd75-49d1-b117-176eb9d14baa")
-	)
-	(wire
-		(pts
 			(xy 162.56 143.51) (xy 171.45 143.51)
 		)
 		(stroke
@@ -6099,16 +6099,6 @@
 			(type default)
 		)
 		(uuid "c031579a-20e0-49ca-b498-6c9b2f9908b1")
-	)
-	(wire
-		(pts
-			(xy 24.13 160.02) (xy 33.02 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c211121d-aa19-48c0-917c-03de5cbd3838")
 	)
 	(wire
 		(pts
@@ -6229,16 +6219,6 @@
 			(type default)
 		)
 		(uuid "d111c7a0-bd23-478a-a074-67f70b154557")
-	)
-	(wire
-		(pts
-			(xy 33.02 157.48) (xy 33.02 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2d62f00-0c0a-463f-aeca-d328ab874d7e")
 	)
 	(wire
 		(pts
@@ -9760,7 +9740,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 146.05 90)
+		(at 162.56 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9769,7 +9749,7 @@
 		(fields_autoplaced yes)
 		(uuid "37334fdc-0998-4816-9247-34c535b56695")
 		(property "Reference" "#PWR052"
-			(at 168.91 146.05 0)
+			(at 168.91 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9778,7 +9758,7 @@
 			)
 		)
 		(property "Value" "rGND"
-			(at 166.37 146.0499 90)
+			(at 166.37 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9787,7 +9767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 146.05 0)
+			(at 162.56 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9796,7 +9776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 146.05 0)
+			(at 162.56 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9805,7 +9785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 146.05 0)
+			(at 162.56 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11285,12 +11265,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 191.77 54.61 0)
+		(property "Value" "rGND"
+			(at 194.31 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12987,7 +12968,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 19.05 157.48 0)
+		(at 19.05 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12995,7 +12976,7 @@
 		(dnp no)
 		(uuid "81141081-44e6-48e1-bbef-959eae5bf41c")
 		(property "Reference" "J3"
-			(at 19.685 149.86 0)
+			(at 19.685 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13003,7 +12984,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 23.622 151.892 0)
+			(at 23.622 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13011,7 +12992,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 19.05 157.48 0)
+			(at 19.05 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13020,7 +13001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 157.48 0)
+			(at 19.05 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13029,7 +13010,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 19.05 157.48 0)
+			(at 19.05 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13710,7 +13691,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 157.48 90)
+		(at 24.13 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13719,7 +13700,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c3c6850-264c-45f2-b53e-be6befb653ac")
 		(property "Reference" "#PWR054"
-			(at 30.48 157.48 0)
+			(at 30.48 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13728,7 +13709,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 157.4799 90)
+			(at 27.94 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13737,7 +13718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 157.48 0)
+			(at 24.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13746,7 +13727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 157.48 0)
+			(at 24.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13755,7 +13736,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 157.48 0)
+			(at 24.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15939,7 +15920,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 157.48 146.05 0)
+		(at 157.48 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15947,7 +15928,7 @@
 		(dnp no)
 		(uuid "bc1da56c-a412-4640-b41d-b6c745ce5522")
 		(property "Reference" "J6"
-			(at 158.115 138.43 0)
+			(at 158.115 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15955,7 +15936,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 163.83 140.716 0)
+			(at 163.83 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15963,7 +15944,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 157.48 146.05 0)
+			(at 157.48 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15972,7 +15953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 146.05 0)
+			(at 157.48 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15981,7 +15962,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 157.48 146.05 0)
+			(at 157.48 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
