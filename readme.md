@@ -1,5 +1,5 @@
 # Maggie42cs0
-![top image](image\maggie42cs.JPG)
+![top image](./image/maggie42cs.JPG)
 Maggie42csは42キー分割型の自作キーボードです。
 - 左右対称カラムスタッガード
 - Alice配列に似た、自然にハの字に手が配置されるデザイン
@@ -47,14 +47,14 @@ Maggie42csは42キー分割型の自作キーボードです。
 ## 製作手順
 
 1. PCBのサポート部分を折り取ります。折った部分のデコボコが気になる場合はやすりなどで削ってください。
-   ![pcb](image\IMG_1649.jpg)
+   ![pcb](./image/IMG_1649.jpg)
 1. ソケットをはんだ付けします。  
    MXスイッチ用のソケットは上側、Chocスイッチ用のソケットは下側に設置します。  
    印刷に合わせて、スイッチの穴を塞がないようにします。
-   ![socket](image\IMG_1651.jpg)
+   ![socket](./image/IMG_1651.jpg)
 1. TRSコネクターをはんだ付けします。  
    ずれやすいのでテープなどで固定してください。  
-   ![TRRS](image\IMG_1654.jpg)
+   ![TRRS](./image/IMG_1654.jpg)
 1. ファームウェアのファイル（.uf2）をダウンロードします。  
    https://github.com/tamaroh/maggie42cs/releases
 1. （片側ずつ両方とも）USBケーブルを接続して、以下のいずれかの方法で `RPI-RP2` リムーバブルドライブをマウントさせます。
