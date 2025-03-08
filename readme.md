@@ -1,5 +1,5 @@
 # Maggie42cs0
-![top image](./image/title.jpg)
+![top image](image\maggie42cs.JPG)
 Maggie42csは42キー分割型の自作キーボードです。
 - 左右対称カラムスタッガード
 - Alice配列に似た、自然にハの字に手が配置されるデザイン
@@ -18,15 +18,15 @@ Maggie42csは42キー分割型の自作キーボードです。
 | 部品名称 | 数量（両手分） | 備考 | 主な購入先 |
 | -------- | ---- | ---- |---|
 | PCB    | 1   |サポートを折って左右に分けます  |
-| トッププレート    | 2    | 左右の差はありません |
+| トッププレート    | 2    | 猫のシルエットがあるのが左側 |
 | ボトムプレート    | 2   | 左右の差はありません |
 | ネジ    | 24   | M2 |
-| 丸スペーサー    | 12   |長さ7.5mm以上を推奨 |
+| 丸スペーサー    | 12   | 5mm or 7.5mm |
 |ゴム足|8||
 | スイッチソケット | 42   | Cherry MX / Kailh choc 対応のもの | [TALP KEYBOARD](https://talpkeyboard.net/items/5e02c5405b120c792616bcf9) など    |
 | メカニカルスイッチ    | 42    | Cherry MX / Kailh choc V1 / V2 対応* | [遊舎工房](https://shop.yushakobo.jp/collections/all-switches) など    |
 | キーキャップ    | 1U x 33, 1.25U x 7, 1.5U x 2 | スイッチに対応したもの | [遊舎工房](https://shop.yushakobo.jp/collections/keycaps) など    |
-| TRSコネクター | 2 | 、または同様の形状のもの | LCSCなど |
+| TRSコネクター | 2 | PJ-399B-6A | [LCSC](https://www.lcsc.com/product-detail/Audio-Connectors_Korean-Hroparts-Elec-PJ-399B-6A_C128994.html)など |
 | 3.5mmオーディオケーブル | 1 | TRRS（4極）またはTRS（3極） | [TALP KEYBOARD](https://talpkeyboard.net/items/5e0c0d786c7d63073c5e8845) など |
 | USBケーブル | 1 | 機器側がTypeCのもの | 家電量販店など||
 
@@ -47,18 +47,16 @@ Maggie42csは42キー分割型の自作キーボードです。
 ## 製作手順
 
 1. PCBのサポート部分を折り取ります。折った部分のデコボコが気になる場合はやすりなどで削ってください。
-   ![pcb](./image/pcb_edge.jpg)
+   ![pcb](image\IMG_1649.jpg)
 1. ソケットをはんだ付けします。  
    MXスイッチ用のソケットは上側、Chocスイッチ用のソケットは下側に設置します。  
    印刷に合わせて、スイッチの穴を塞がないようにします。
-   ![socket](./image/socket1.jpg)
-   ![socket](./image/socket2.jpg)
-1. TRRSコネクターをはんだ付けします。  
+   ![socket](image\IMG_1651.jpg)
+1. TRSコネクターをはんだ付けします。  
    ずれやすいのでテープなどで固定してください。  
-   Chocスイッチを使う場合はキープレートにぶつかる可能性があるので、飛び出たピン先をニッパーなどで切断してください。
-   ![TRRS](./image/trrs.jpg)
+   ![TRRS](image\IMG_1654.jpg)
 1. ファームウェアのファイル（.uf2）をダウンロードします。  
-   https://github.com/tamaroh/maggie42cs0/releases
+   https://github.com/tamaroh/maggie42cs/releases
 1. （片側ずつ両方とも）USBケーブルを接続して、以下のいずれかの方法で `RPI-RP2` リムーバブルドライブをマウントさせます。
    1. BOOTSELボタンを押しながら、USBケーブルを接続します。
    1. USBケーブルを接続してから、BOOTSELボタンを押しながらRESETボタンを押します。
@@ -83,7 +81,7 @@ Maggie42csは42キー分割型の自作キーボードです。
 ## キーマップを変更する
 
 Maggie42は[Remap](https://remap-keys.app)によるキーマップ変更に対応しています。  
-ハードウェア接続のあとJSONファイルを要求される場合は[ファームウェアと同じ場所](https://github.com/tamaroh/maggie42cs0/releases/tag/V1.1.0)からダウンロードして使用してください。
+ハードウェア接続のあとJSONファイルを要求される場合は[ファームウェアと同じ場所](https://github.com/tamaroh/maggie42cs/releases)からダウンロードして使用してください。
 
 ## 注意事項
 
