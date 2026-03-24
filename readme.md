@@ -1,4 +1,5 @@
-# Maggie42cs0
+# Maggie42cs
+
 ![top image](./image/maggie42cs.JPG)
 Maggie42csは42キー分割型の自作キーボードです。
 - 左右対称カラムスタッガード
@@ -6,29 +7,22 @@ Maggie42csは42キー分割型の自作キーボードです。
 - MX Cherry 互換スイッチ、Kailh Choc v1, v2スイッチの3種に対応
 - Extension キーはキーキャップセットで揃いやすい1.25U, 1.5Uに対応
 
-また、Maggie42cs0とは以下の差異があります。
-- コントローラー実装済み、別途の購入は不要
-- 薄型のTRSコネクターを使用（TRRSケーブルも利用可能）
-- 半田付けはソケットのみ
-- BIOS画面に入るときも、接続してすぐに利用可能
-- 黒ベースの落ち着いたデザイン
-
 ## 必要なもの
 
-| 部品名称 | 数量（両手分） | 備考 | 主な購入先 |
-| -------- | ---- | ---- |---|
-| PCB    | 1   |サポートを折って左右に分けます  |
-| トッププレート    | 2    | 猫のシルエットがあるのが左側 |
-| ボトムプレート    | 2   | 左右の差はありません |
-| ネジ    | 24   | M2 |
-| 丸スペーサー    | 12   | 5mm or 7.5mm |
-|ゴム足|8||
-| スイッチソケット | 42   | Cherry MX / Kailh choc 対応のもの | [TALP KEYBOARD](https://talpkeyboard.net/items/5e02c5405b120c792616bcf9) など    |
-| メカニカルスイッチ    | 42    | Cherry MX / Kailh choc V1 / V2 対応* | [遊舎工房](https://shop.yushakobo.jp/collections/all-switches) など    |
-| キーキャップ    | 1U x 33, 1.25U x 7, 1.5U x 2 | スイッチに対応したもの | [遊舎工房](https://shop.yushakobo.jp/collections/keycaps) など    |
-| TRSコネクター | 2 | PJ-399B-6A | [LCSC](https://www.lcsc.com/product-detail/Audio-Connectors_Korean-Hroparts-Elec-PJ-399B-6A_C128994.html)など |
-| 3.5mmオーディオケーブル | 1 | TRRS（4極）またはTRS（3極） | [TALP KEYBOARD](https://talpkeyboard.net/items/5e0c0d786c7d63073c5e8845) など |
-| USBケーブル | 1 | 機器側がTypeCのもの | 家電量販店など||
+| 部品名称                | 数量（両手分）                 | 備考                                   | 主な購入先                                                          |
+| ----------------------  | ------------------------------ | -------------------------------------- | ------------------------------------------------------------------- |
+| PCB                     | 1                              | サポートを折って左右に分けます         |                                                                     |
+| トッププレート          | 2                              | 猫のシルエットがあるのが左側           |                                                                     |
+| ボトムプレート          | 2                              | 左右の差はありません                   |                                                                     |
+| ネジ                    | 24                             | M2                                     |                                                                     |
+| 丸スペーサー            | 12                             | 5mm or 7.5mm                           |                                                                     |
+| ゴム足                  | 8                              |                                        |                                                                     |
+| スイッチソケット        | 42                             | Cherry MX / Kailh choc 対応のもの      | [TALP KEYBOARD](https://shop.talpkeyboard.com) など                 |
+| メカニカルスイッチ      | 42                             | Cherry MX / Kailh choc V1 / V2 対応*   | [遊舎工房](https://shop.yushakobo.jp/collections/all-switches) など |
+| キーキャップ            | 1U x 33, 1.25U x 7, 1.5U x 2   | スイッチに対応したもの                 | [遊舎工房](https://shop.yushakobo.jp/collections/keycaps) など      |
+| TRSコネクター           | 2                              | PJ-399B-6A                             | [LCSC](https://www.lcsc.com/) など                                  |
+| 3.5mmオーディオケーブル | 1                              | TRRS（4極）またはTRS（3極）            | [TALP KEYBOARD](https://shop.talpkeyboard.com) など                 |
+| USBケーブル             | 1                              | 機器側がTypeCのもの                    | 家電量販店など                                                      |
 
 ## 使用する工具など
 
@@ -56,7 +50,7 @@ Maggie42csは42キー分割型の自作キーボードです。
    ずれやすいのでテープなどで固定してください。  
    ![TRRS](./image/IMG_1654.jpg)
 1. ファームウェアのファイル（.uf2）をダウンロードします。  
-   https://github.com/tamaroh/maggie42cs/releases
+   https://github.com/tamaroh/maggie42cs/releases/tag/V2.0.2
 1. （片側ずつ両方とも）USBケーブルを接続して、以下のいずれかの方法で `RPI-RP2` リムーバブルドライブをマウントさせます。
    1. BOOTSELボタンを押しながら、USBケーブルを接続します。
    1. USBケーブルを接続してから、BOOTSELボタンを押しながらRESETボタンを押します。
@@ -81,10 +75,18 @@ Maggie42csは42キー分割型の自作キーボードです。
 ## キーマップを変更する
 
 Maggie42は[Remap](https://remap-keys.app)によるキーマップ変更に対応しています。  
-ハードウェア接続のあとJSONファイルを要求される場合は[ファームウェアと同じ場所](https://github.com/tamaroh/maggie42cs/releases)からダウンロードして使用してください。
+ハードウェア接続のあとJSONファイルを要求される場合は[ファームウェアと同じ場所](https://github.com/tamaroh/maggie42cs/releases/tag/V2.0.2)からダウンロードして使用してください。
 
 ## 注意事項
 
 - 必要な手順や部品の種類・数はアップデートによって変更になる場合があります。
 - 本ビルドガイドの写真の一部は製品と異なる場合があります。
 
+## 実装の差異について
+
+キーケット2026にて販売した一部のキットは、製作の時期により差異があります。
+- 手順と異なる4極の3.5mmコネクターがはんだ実装済みです。したがって、TRSケーブルではなくTRRS（4極）ケーブルが必要です。
+- 左右でPCBの印字の色が異なります。
+  ![v200](./image/v200.jpg)
+- 手順通りのファームウェアとは異なります。書き込み済みで販売いたしましたが、再度セットアップする場合は[V2.0.0のファームウェア](https://github.com/tamaroh/maggie42cs/releases/tag/V2.0.0)を使用してください。
+- Remapにアクセスした際は「maggie42csv2」と表示されます。
